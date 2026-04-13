@@ -8,7 +8,7 @@ This project aims to develop a predictive model for skilled birth attendance usi
 - **Source**: Kenya Demographic and Health Survey (DHS) 2022 - Individual Recode (IR) file
 - **File**: KEIR8CFL.DTA
 - **Sample**: Women of reproductive age (15-49 years) in Kenya
-- 
+
 ### Variables Used
 
 **Target Variable:**
