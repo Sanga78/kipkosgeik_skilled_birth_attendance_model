@@ -28,7 +28,7 @@ This project aims to develop a predictive model for skilled birth attendance usi
 
 ## Project Structure
 
-- `Untitled-1.ipynb` - Main analysis and model development notebook
+- `sanga.ipynb` - Main analysis and model development notebook
 - `README.md` - Project documentation
 
 ## Objectives
