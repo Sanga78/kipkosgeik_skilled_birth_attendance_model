@@ -3,8 +3,33 @@
 ## Project Overview
 This project aims to develop a predictive model for skilled birth attendance using the Kenya Demographic and Health Survey (DHS) 2022 data. Skilled birth attendance is pivotal for improving maternal and child health outcomes, and this model seeks to identify factors influencing attendance at skilled births.
 
-## Data Sources
-The primary data source for this project is the Kenya DHS 2022. This dataset includes a range of demographic, health, and socio-economic variables that are critical for analyzing skilled birth attendance.
+## Dataset
+
+- **Source**: Kenya Demographic and Health Survey (DHS) 2022 - Individual Recode (IR) file
+- **File**: KEIR8CFL.DTA
+- **Sample**: Women of reproductive age (15-49 years) in Kenya
+- 
+### Variables Used
+
+**Target Variable:**
+
+- `m15_1`: Place of delivery (most recent birth)
+
+**Skilled Attendant Indicators:**
+
+- Doctor, nurse, midwife, or auxiliary midwife assistance
+
+**Features:**
+
+- Demographic: Age, education level, region, residence type (urban/rural)
+- Socioeconomic: Wealth index, parity (total children ever born)
+- Healthcare Access: Antenatal care visits, distance to health facility
+- Media Exposure: Newspaper, radio, television, internet usage
+
+## Project Structure
+
+- `Untitled-1.ipynb` - Main analysis and model development notebook
+- `README.md` - Project documentation
 
 ## Objectives
 - To understand the trends and factors affecting skilled birth attendance in Kenya.
@@ -23,14 +48,18 @@ The primary data source for this project is the Kenya DHS 2022. This dataset inc
 - Scikit-learn
 - Matplotlib & Seaborn for visualization
 
-## Installation
-To run this project, clone the repository and install the required packages:
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
-Instructions on how to run the model and utilize the predictions will be added here.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+ 1. Open `sanga.ipynb` in Jupyter Notebook or JupyterLab
+ 2. Ensure the DHS data file is in the project directory
+ 3. Run cells sequentially to:
+    - Extract and load the dataset
+    - Explore data distributions and patterns
+    - Preprocess and engineer features
+    - Train and evaluate the prediction model
+    - Visualize results and model performance
+  
+## Author
+
+Kelvin Kipkosgei
